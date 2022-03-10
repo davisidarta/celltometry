@@ -1,0 +1,20 @@
+site_name: CellTOMetry Documentation
+nav:
+    - Welcome!: index.md
+    - Workflows:
+          - Standard workflow: standard_workflow.md
+          - Topological workflow: topological_workflow.md
+          - Standard integration: standard_integration.md
+          - Topological integration: topological_integration.md
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - python
+        - bash
+    icon:
+        logo: img/logo.png
+
+plugins:
+- search
+- mkdocstrings
