@@ -61,6 +61,8 @@ To run the topological workflow, create a [TopOGraph](https://topometry.readthed
 ```
 adata = ct.topological_workflow(adata, tg)
 ```
+If no TopOGraph is added and the function is executed as `sc.topological_workflow(adata)`, an empty TopOGraph will be
+created with default parameters and **will not be saved after computations**.
 
 For further instructions, please check [TopOMetry documentation](https://topometry.readthedocs.io/en/latest/index.html).
 
